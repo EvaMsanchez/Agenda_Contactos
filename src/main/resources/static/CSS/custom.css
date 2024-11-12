@@ -1,0 +1,54 @@
+/* Personalización de la barra de navegación */
+.custom-navbar {
+ background-color: #975E92;
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold; 
+    color: #B4D6D3;
+}
+
+/* Estilos del título */
+h3 {
+    font-weight: bold; 
+}
+
+/* Estilos de la tabla */
+.table-custom {
+    background-color: white;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    overflow: hidden; /* Asegura que los bordes redondeados no se corten */
+}
+
+/* Estilos de la cabecera de la tabla */
+.table-custom thead tr th{
+    background-color: #B4D6D3;
+}
+
+.table-custom th {
+    color: #975E92;
+}
+
+.btn-warning {
+    background-color: #9dc6c3;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #677179; /* Gris oscuro */
+    border: none;
+}
+
+/* Efecto hover */
+.icon-link:hover i {
+    opacity: 0.7;
+}
+
+.btn-warning:hover {
+    background-color: #B4D6D3; /* Color original para hover */
+}
+
+.btn-danger:hover {
+    background-color: #9ca3aa; /* Gris claro para hover */
+}
+
